@@ -1,0 +1,22 @@
+.man , .woman{
+    height:400px;
+    width:300px;
+    border:3px solid black;
+    border-radius:10px;
+    display:inline-block;
+    margin:10px;
+    box-shadow:2px 2px 8px black;
+    transition: box-shadow 1s ease 
+}
+
+img{
+    height:250px;
+    width:300px;
+    border-radius:10px 10px 0px 0px;
+}
+.desc{
+    padding-left: 10px;
+}
+.man:hover , .woman:hover{
+    box-shadow:10px 10px 16px black;
+}

@@ -1,0 +1,44 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color:yellow;
+    /* display:grid; */
+    display:inline-grid;
+    /* grid-template-rows:50px 50px 50px 50px 50px;
+    grid-template-columns:100px 100px 100px; */
+    /* grid-template-rows:repeat(5,1fr);
+    grid-template-columns:repeat(3,1fr); */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    /* row-gap:10px;
+    column-gap:30px */
+    grid-gap: 10px;/*row column or single value means same for both */
+    /* justify-items:start; */
+    /* justify-items:end; */
+    /* justify-items:center; */
+    /* align-items:start; */
+    place-items:center; /*if both justify-items and align-items have same value*/
+}
+.item{
+    width:100px;
+    height:50px;
+    text-align:center;
+    background-color:greenyellow;
+    border:2px solid black;
+}
+.one{
+    /* grid-column-start:1 refers to line no.;
+    grid-column-end:4; refers to line no.*/
+    /* grid-column:1/4; */
+   /* grid-column:1/span 3 /*span 3 means how many more columns after line 1*/
+   /* justify-self:end; */
+   place-self:center;
+}
+.two{
+    /* grid-row-start:1;
+    grid-row-end:3; */
+    /* grid-row:1/3 */
+    /* grid-row:1/span 2 */
+    /* align-self:end; */
+    place-self:center;
+}

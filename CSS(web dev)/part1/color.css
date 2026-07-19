@@ -1,0 +1,15 @@
+/* rgb format */
+h1 {
+    color:rgb(255,0,0);
+    background-color:rgb(255,192,123);
+}
+/* name format */
+p {
+    color:blue;
+    background-color: pink;
+}
+/* hexadecimal codes fromat */
+button{
+color: #ffffff;
+background-color: #000000;
+}

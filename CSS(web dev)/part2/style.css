@@ -1,0 +1,122 @@
+/* Universal selector */
+*{
+    font-family:'Courier New';
+}
+h3{
+    background-color:antiquewhite !important;
+}
+/* Element selector */
+h1,h3{
+    color:#B92B27;
+}
+
+/* Id selector */
+#login{
+    background-color:white;
+}
+#signup{
+    color:white;
+    background-color:#B92B27;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendant selector */
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+nav ul li a{ /* can also write nav a directly*/
+    color: hotpink;
+}
+
+/* Sibling combinator */
+p + h3{
+    text-decoration:underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color:darkblue;
+}
+
+/* Child combinator */
+div>input{
+    background-color:darksalmon;
+
+}
+
+/* Attribute selector */
+input[type="text"]{
+    color:green;
+}
+
+input[type="password"]{
+    color:red;
+}
+
+input[type]{
+    background-color:ghostwhite;
+}
+
+#myId p{
+    color:green
+}
+
+/* ***pseudo class**** */
+
+/* 1.Hover */
+button:hover{
+    background-color:black;
+    color:white;
+}
+
+/* 2.Active */
+button:active{
+    background-color:hotpink;
+    color:black;
+}
+.post:active{
+    font-weight:bold;
+    color: green;
+}
+
+/* 3.Checked */
+input[type="radio"]:checked + label{
+    font-weight:bold;
+    color:red;
+}
+
+/* 4.nth-of-type */
+div:nth-of-type(2n){
+    background-color:blanchedalmond
+}
+
+/* ***pseudo elements*** */
+
+/* 1.first letter */
+h1::first-letter{
+    color:black;
+}
+
+/* 2.first line */
+#myId p::first-line{
+    color:hotpink;
+}
+
+/* 3.selection */
+p::selection{
+    background-color:rgb(240, 176, 208);
+}
+
+/*****Cascading**** */
+h3{
+    background-color:yellow;
+}
+h3{
+    background-color:pink;
+}

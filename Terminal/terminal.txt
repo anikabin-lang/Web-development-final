@@ -1,0 +1,43 @@
+1. ls = list files 
+    // lists files or folders which are directly inside the current working directory 
+    eg For Web-development-final it will only print the folders like CSS Javascript, not files or folders inside Javascript folder 
+
+2. pwd= print working directory
+   //prints current working directory
+
+3. clear = to clear terminal
+
+4. cd = change directory eg first do pwd then ls and then to change directory do cd eg cd Desktop -> cd Web-development-final ->cd CSS(web-dev)
+   also can use: cd Desktop/Web-development-final ,directly
+5. cd .. = back button for cd
+   use cd ../.. to go 2 steps behind
+
+6. Absolute paths : cd /Users/anika/Desktop/Web-development-final
+
+7.Relative path: cd Desktop
+absolute paths work from any directory but relative path depend on current working directory
+
+/ = root directory. computer's everything is inside root directory for eg users is part of root directory
+~ = home directory. files or folder to this users
+
+8. mkdir = make directory //only creates folder eg mkdir NewDir
+           more ways: mkdir "ADA exps"/NewDir/Hello/Hello2 
+           can use both relative or absolute paths
+
+9. manual commands : give info about the commands eg. man ls gives info about ls command
+10. Flags : characters that we pass with commands to modify their behavour //extra info
+           a. -l :list in long format
+           b. -a : include whose name begins with . like hidden
+           to combine -l and -a : ls -la
+
+11.Touch command :sets access times and modification of files . create files if they do not exist
+        Primary use for us :     *** used to create files if they do not exist
+
+12. rm : remove files //sensitive command - no recycling eg rm style.css or : rm style.css app.js index.html
+
+13. rmdir - removes empty folders
+
+14. rm -rf : removes any folder
+      -r : recursive delete : nested way mein andar ki saari cheez ko delete
+      -f: force delete
+      rf : recursive force

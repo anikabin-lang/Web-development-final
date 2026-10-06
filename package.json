@@ -1,5 +1,31 @@
 {
+  "name": "web-development-final",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/anikabin-lang/Web-development-final#readme",
+  "bugs": {
+    "url": "https://github.com/anikabin-lang/Web-development-final/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anikabin-lang/Web-development-final.git"
+  },
+  "license": "ISC",
+  "author": "anika",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "nodemon": "^3.1.14"
-  }
+    "ejs": "^6.0.1",
+    "epress": "^0.0.1-security",
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.9.2",
+    "nodemon": "^3.1.14",
+    "uuid": "^14.0.1"
+  },
+  "keywords": []
 }

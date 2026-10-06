@@ -66,8 +66,8 @@ app.patch("/posts/:id",(req,res)=>{
     let post=posts.find((p)=>id===p.id);
     post.content=newContent;
     console.log(post);
-    res.redirect("/posts")
-})
+    res.redirect("/posts");
+});
 
 app.get("/posts/:id/edit",(req,res)=>{
     let {id}=req.params;

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Tweet</title>
+</head>
+<body>
+    <h2>Edit the Tweet</h2>
+    <p>id: @<%=tweet.id%></p>
+    <p>username: @<%=tweet.username%></p>
+    <form class="tweet" method="POST" action="/tweets/<%=tweet.id%>/edit?_method=PATCH">
+        <textarea name="content" rows="10" cols="30"><%=tweet.content%></textarea>
+        <br><br>
+        <button>Post Tweet</button>
+    </form>
+</body>
+</html>

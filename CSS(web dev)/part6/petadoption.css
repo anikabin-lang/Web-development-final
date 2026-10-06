@@ -1,0 +1,35 @@
+h2{
+    color:#d56f3e;
+}
+#pets{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly
+}
+#pets div{
+    border:2px solid black;
+    width:400px;
+    border-radius:25px;
+    padding:10px;
+    margin:10px;
+}
+img{
+    width:100%;
+    border-radius:25px;
+}
+
+span{
+    color:#bc5120;
+}
+h4{
+    color:rgb(129, 129, 214);
+    text-align:right;
+}
+p,h3{
+    padding-left:10px;
+}
+@media(max-width:375px){
+    #pets{
+        flex-wrap:wrap;
+    }
+}

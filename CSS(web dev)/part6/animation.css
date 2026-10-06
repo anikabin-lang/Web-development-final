@@ -1,0 +1,59 @@
+.box{
+    height:100px;
+    width:300px;
+    background-color:pink;
+
+    /* animation-name:widthAnimate;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-delay:0;
+    animation-iteration-count:2;
+    animation-direction:alternate; */
+    animation: stageAnimation 2s ease-in 0s 2 alternate;
+
+}
+@keyframes allAnimate{
+    from {
+        font-size:20px;
+        background-color:hotpink;
+        width:10px;
+    }
+    to{
+        font-size:40px;
+         background-color:wheat;
+         width:400px;
+         border-radius:20px;
+    }
+}
+
+@keyframes colourAnimate{
+    from{
+        background-color:hotpink;
+    }
+    to{
+        background-color:wheat;
+    }
+}
+
+@keyframes widthAnimate{
+    from{
+        width:10px;
+    }
+    to{
+        width:400px;
+    }
+}
+@keyframes stageAnimation{
+    0%{
+        background-color:green;
+    }
+    50%{
+        background-color:yellow;
+    }
+    80%{
+        background-color:red;
+    }
+    100%{
+        background-color:blue;
+    }
+}

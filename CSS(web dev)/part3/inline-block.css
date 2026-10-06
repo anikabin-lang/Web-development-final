@@ -1,0 +1,11 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    border:2px black solid;
+    margin:5px;
+    display:inline-block; /*behave like inline style like block*/
+}
+#third{
+    display:none; /*hides the element*/
+}

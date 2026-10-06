@@ -1,0 +1,22 @@
+/* h2{
+    display:inline;
+    background-color:pink;
+}
+span{
+    display:block;
+} */
+ span{
+    /* background-color:pink; */
+    border:2px solid black;
+    height:100px; /*No change in height and width for inline element*/
+    width:50px;
+    padding:50px; /* margin only works for left and right for inline elements*/
+    margin:20px; /*Padding works for all sides but top and bottom content overlaps*/
+ }
+ div{
+    border:2px solid black;
+    height:10px; 
+    width: 20px;
+    padding:50px;
+    margin:20px;
+ }
